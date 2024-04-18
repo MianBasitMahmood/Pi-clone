@@ -29,3 +29,9 @@ and image extraction techniques with the help of an easy to use graphic user
 interface and minimal learning effort. Using this app the end user can create 
 amazing breathtaking pictures which can then be saved to local storage or can then 
 be shared among friends using the social media.
+
+
+# Test-Case Example
+For more details please check Chapter 5- Testing and Evaluation in Final-FYP-Thesis.pdf
+
+![alt text](image.png)
