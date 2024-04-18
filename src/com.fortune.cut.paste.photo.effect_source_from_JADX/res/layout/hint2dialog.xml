@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:id="@id/hint2" android:background="@drawable/hint_2" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

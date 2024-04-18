@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@drawable/main_bg" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/imgShareLyt" android:background="@drawable/photo_frame" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/imgShare" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="20sp" android:typeface="1" android:textStyle="1" android:textColor="0x106000b" android:id="@id/textView1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Share With :" android:layout_below="@id/imgShareLyt" />
+    <HorizontalScrollView android:id="@id/shareLyt" android:background="#242424" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/textView1">
+        <LinearLayout android:gravity="11" android:orientation="0" android:id="@id/linear1" android:layout_width="-2" android:layout_height="-2">
+            <ImageButton android:id="@id/share_facebook" android:background="@drawable/fb_icon" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="4dp" />
+            <ImageButton android:id="@id/share_whatup" android:background="@drawable/whatsapp_icon" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="2dp" />
+            <ImageButton android:id="@id/share_instagram" android:background="@drawable/instagram_icon" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="2dp" />
+            <ImageButton android:id="@id/share_twitter" android:background="@drawable/twitter_icon" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="2dp" />
+            <ImageButton android:id="@id/share_flickr" android:background="@drawable/flickr_icon" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="2dp" />
+            <ImageButton android:id="@id/share_other" android:background="@drawable/other_icon" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="2dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView android:textSize="20sp" android:typeface="1" android:textStyle="1" android:textColor="0x106000b" android:id="@id/textView2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Our More Apps" android:layout_below="@id/shareLyt" />
+    <ScrollView android:background="@drawable/cameragallerybg" android:scrollbars="200" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_below="@id/textView2">
+        <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                <ImageButton android:id="@id/photoCollage" android:background="@drawable/photo_collage" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+                <ImageButton android:id="@id/coolPix" android:background="@drawable/coolpix" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+                <ImageButton android:id="@id/magazineCollage" android:background="@drawable/magazine_collage" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:id="@id/linear2" android:layout_width="-2" android:layout_height="-2">
+                <ImageButton android:id="@id/InstaMirrorEffect" android:background="@drawable/insta_mirroreffect" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+                <ImageButton android:id="@id/ColorSplashEffect" android:background="@drawable/insta_colorsplash" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+                <ImageButton android:id="@id/AppManager" android:background="@drawable/app_manager" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

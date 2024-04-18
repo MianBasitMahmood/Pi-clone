@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/main_bg1" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/mlayout" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+        <ImageView android:id="@id/bakgroundImage" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:id="@id/our_imageview" android:layout_width="-2" android:layout_height="-2" android:scaleType="0" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/seekBarLyt" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_above="@id/bottomBar">
+        <ImageButton android:id="@id/resetBtn" android:background="@drawable/btn_image_adjust_retry" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" />
+        <SeekBar android:id="@id/brightness" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2" android:progress="0" android:secondaryProgress="0" android:progressDrawable="@drawable/progress_horizontal_green" android:thumb="@drawable/marker" android:layout_toRightOf="@id/resetBtn" />
+        <SeekBar android:id="@id/contrast" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-1" android:layout_height="-2" android:progress="0" android:secondaryProgress="0" android:progressDrawable="@drawable/progress_horizontal_green" android:thumb="@drawable/marker" android:layout_toRightOf="@id/resetBtn" android:layout_below="@id/brightness" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/seekBar2Lyt" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_above="@id/bottomBar">
+        <SeekBar android:id="@id/opacity" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="-1" android:layout_height="-2" android:max="1000" android:progress="0" android:progressDrawable="@drawable/progress_horizontal_green" android:thumb="@drawable/marker" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="11" android:id="@id/bottomBar" android:background="@drawable/bottom_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/selectImage" android:background="@drawable/select_image_button" android:layout_width="-2" android:layout_height="-2" />
+        <ImageButton android:id="@id/ImageAdjustTool" android:background="@drawable/image_adjust_button" android:layout_width="-2" android:layout_height="-2" />
+        <ImageButton android:id="@id/adjustOpacity" android:background="@drawable/opacity_button" android:layout_width="-2" android:layout_height="-2" />
+        <ImageButton android:id="@id/saveBtn" android:background="@drawable/save_button" android:layout_width="-2" android:layout_height="-2" />
+        <ImageButton android:id="@id/shareBtn" android:background="@drawable/image_share_button" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/header" android:background="#733c51" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/title" android:background="@drawable/app_name_title" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="1" android:orientation="0" android:id="@id/bannerAd" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>
